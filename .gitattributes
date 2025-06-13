@@ -1,22 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
-# Tell GitHub Linguist to treat all .cs files as C#
-*.cs linguist-language=C#
-
-# Ignore common Unity auto-generated folders (not counted for language stats)
-[Ll]ibrary/* linguist-vendored
-[Tt]emp/* linguist-vendored
-[Bb]uild/* linguist-vendored
-[Bb]uilds/* linguist-vendored
-[Oo]bj/* linguist-vendored
-[Ll]ogs/* linguist-vendored
-[Mm]emoryCaptures/* linguist-vendored
-
-# Ignore meta and project files from analysis
-*.meta linguist-generated
-*.unity linguist-generated
-*.mat linguist-generated
-*.prefab linguist-generated
-*.asset linguist-generated
-
